@@ -231,7 +231,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #2C394B;
+   background: #252b34;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -430,9 +430,11 @@ ul#nav li.current a { color: #fe6928; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: #393E46;
+   color: #3296b8;
    overflow: hidden;
    position: relative;
+   border-radius: 4%;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
