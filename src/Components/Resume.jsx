@@ -50,18 +50,20 @@ class Resume extends Component {
       );
     });
 
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
+    // Skills section needs work
 
-      return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
-      );
-    });
+    // const skills = this.props.data.skills.map((skills) => {
+    //   const backgroundColor = this.getRandomColor();
+    //   const className = "bar-expand " + skills.name.toLowerCase();
+    //   const width = skills.level;
+
+    //   return (
+    //     <li key={skills.name}>
+    //       <span style={{ width, backgroundColor }} className={className}></span>
+    //       <em>{skills.name}</em>
+    //     </li>
+    //   );
+    // });
 
     return (
       <section id="resume">
@@ -97,24 +99,30 @@ class Resume extends Component {
         </Slide>
 
 
-        <Slide left duration={1300}>
+        
+        {/* <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+              <span>Skills</span>
               </h1>
-            </div>
-
-            <div className="nine columns main-col">
+              </div>
+              
+              
+              {/* Skills section needs some work. Progress bars are too vague/cliche
+              <div className="nine columns main-col">
               <p>{skillmessage}</p>
-
+              
               {/* <div className="bars">
                 <ul className="skills">{skills}</ul>
-              </div> */}
+                </div>
             </div>
-          </div>
-        </Slide>
-      </section>
+            </div>
+        </Slide> */}
+
+            </section>
+
+        
     );
   }
 }

@@ -2,7 +2,7 @@
   "main": {
     "name":"Victor Delgado",
     "description":"software developer",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"6+ years experience using Python to create software solutions to engineering problems. 4+ years experience using Javascript and React to create modern/responsive web applications",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -48,16 +48,22 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"The Boston Conservatory of Music",
+        "degree":"Master's Degree, Music Performance",
+        "graduated":"May 2010",
+        "description":"Primary Focus: experimental music via small group collaboration"
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"The University of South Florida",
+        "degree":"Bachelor's Degree, Music Performance",
+        "graduated":"May 2008 ",
+        "description":"Primary Focus: Music history and analysis"
+      },
+      {
+        "school":"Eastern Florida State College",
+        "degree":"Associate's Degree, Electronics Engineering Technology",
+        "graduated":"December 2019",
+        "description":"Primary Focus: Electronics and solving engineering problems through software solutions in Python"
       }
     ],
     "work":[
@@ -65,18 +71,29 @@
         "company":"Qorvo",
         "title":"Engineering Technician ",
         "years":"May 2021 - Present",
-        "description":["first", "second", "third"]},
+        "description":[
+          "Developed web-based issue tracking app to communicate with teammates", 
+          "Maintained active postgreSQL database of current/past test schedules (via SQLAlchemy)", 
+          "Collaborated with the merch dept to create an e-commerce site (using Flask) for corporate branded swag. Currently 5k+ users"]},
       {
-        "company":"Leonard DRS",
+        "company":"Leonardo DRS",
         "title":"Engineering Technician ",
         "years":"November 2019 - May 2021",
-        "description":"farts"
+        "description":[
+          "Automated data collection via skills learned from 'Automate the Boring Stuff' by Al Sweigert", 
+          "Created data analysis/visualization reports using Python (Pandas, Matplotlib)",
+          "Maintained active database of test data (postgreSQL via SQLAlchemy)",
+          "Wrote and executed bash scripts to perform embedded systems validation tests" ]
       },
       {
         "company":"Diamond Scientific",
         "title":"Engineering Sales Intern ",
         "years":"June 2017 - October 2019",
-        "description":"poops"
+        "description":[
+          "Performed routine calibration of handheld and stationary landfill gas analyzers", 
+          "Maintained postgreSQL database of customer and product data",
+          "Automated customer reports (data analysis/visualization) with Python (MatPlotlib, Seaborne)",
+          "Answered customer concerns via phone and email"]
       }
 
     ],
